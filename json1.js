@@ -1,3 +1,3 @@
-const user = require("./sample1.json");
+const user = require("./node3.json");
 
 console.log(user);
