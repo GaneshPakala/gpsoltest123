@@ -1,5 +1,5 @@
 const fs = require("fs");
-const sample1 = require("./sample1");
+const sample1 = require("./node3");
 
 let user = {
 	fname:"Gopi",
@@ -15,7 +15,7 @@ let user1 = {
 sample1.unshift(user);
 sample1.push(user1);
 
-fs.writeFile("sample2.json", JSON.stringify(sample1), err => {
+fs.writeFile("node4.json", JSON.stringify(sample1), err => {
 	if (err) throw err;
 	console.log("Done Writing");
 });
